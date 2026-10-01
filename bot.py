@@ -4,7 +4,7 @@ import time
 import requests
 
 TOKEN = os.getenv("8982851762:AAF-db6M4lw1rGCH8sgDpEmPa2S6BjDyyPA")
-ADMIN_ID = int(os.getenv("7232582251"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 
 API = f"https://api.telegram.org/bot{TOKEN}"
 DB_FILE = "content.json"
