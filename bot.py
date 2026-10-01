@@ -445,11 +445,11 @@ def handle_message(message):
 def main():
 
     if not TOKEN:
-        print("❌ BOT_TOKEN missing")
+        print("8982851762:AAF-db6M4lw1rGCH8sgDpEmPa2S6BjDyyPA")
         return
 
     if not ADMIN_ID:
-        print("❌ ADMIN_ID missing")
+        print("7232582251")
         return
 
     print("🤖 Bot started...")
